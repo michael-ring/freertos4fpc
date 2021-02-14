@@ -125,5 +125,5 @@ for dir in armv6m/default armv7m/default armv7em/eabihf ; do
   rm -f lib/$dir/*.su 2>/dev/null
 done
 
-rm -f FreeRTOS-10.4.3-for-for-FreePascal.zip 2>/dev/null
-zip -r FreeRTOS-10.4.3-for-for-FreePascal.zip lib
+rm -f FreeRTOS-10.4.3-for-FreePascal.zip 2>/dev/null
+zip -r FreeRTOS-10.4.3-for-FreePascal.zip lib
