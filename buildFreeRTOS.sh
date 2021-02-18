@@ -126,4 +126,6 @@ for dir in armv6m/eabi armv7m/eabi armv7em/eabihf ; do
 done
 
 rm -f FreeRTOS-10.4.3-for-FreePascal.zip 2>/dev/null
-zip -r FreeRTOS-10.4.3-for-FreePascal.zip lib
+cd lib
+zip -r ../FreeRTOS-10.4.3-for-FreePascal.zip *
+cd ..
